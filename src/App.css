@@ -1,0 +1,143 @@
+/* 全局样式重置 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* 容器样式 */
+.config-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f7fa;
+  padding: 20px;
+}
+
+/* 弹窗主体 */
+.config-modal {
+  width: 800px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+  position: relative;
+}
+
+/* 弹窗头部 */
+.modal-header {
+  padding: 16px 24px;
+  border-bottom: 1px solid #e5e6eb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-header h2 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1d2129;
+}
+
+.close-btn {
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  color: #86909c;
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: background 0.2s;
+}
+
+.close-btn:hover {
+  background: #f5f7fa;
+}
+
+/* 表单样式 */
+.config-form {
+  padding: 24px;
+}
+
+.form-item {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #1d2129;
+  line-height: 1.5;
+}
+
+.required {
+  color: #f53f3f;
+  margin-right: 4px;
+}
+
+.helper-text {
+  font-size: 12px;
+  color: #86909c;
+  margin-left: 8px;
+}
+
+.link {
+  color: #4e5969;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.link:hover {
+  color: #0066cc;
+}
+
+.form-input {
+  width: 100%;
+  height: 40px;
+  padding: 8px 12px;
+  border: 1px solid #dcdfe6;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #1d2129;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.form-input::placeholder {
+  color: #c0c4cc;
+}
+
+.form-input:focus {
+  border-color: #409eff;
+}
+
+/* 提交按钮 */
+.submit-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.submit-btn {
+  width: 120px;
+  height: 44px;
+  background: #0066cc;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.submit-btn:hover {
+  background: #0052aa;
+}
