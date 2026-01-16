@@ -6,8 +6,8 @@ import CryptoJS from 'crypto-js'; // 新增：加密库
 import './App.css';
 
 // 核心常量（前后端一致，生产需从安全存储获取）
-const APP_KEY = 'kd_sync_202601';
-const APP_SECRET = '9s7K2p8Q5r9B4m7X8z6C1v3N8t5G7b9';
+const APP_KEY = 'xxxx';
+const APP_SECRET = 'xxxxx';
 
 function App() {
   const [formData, setFormData] = useState({
